@@ -1,0 +1,17 @@
+{
+  "name": "My PWA Example",
+  "short_name": "PWA",
+  "description": "A simple Progressive Web App example",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "display_override": ["fullscreen", "minimal-ui"],
+  "background_color": "#fff",
+  "theme_color": "#0078e7",
+  "icons": [
+    {
+      "src": "./pwa-icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
